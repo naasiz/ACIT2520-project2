@@ -1,0 +1,29 @@
+BONUS: 
+When you create a new reminder, 
+add another text input called
+Banner Image: Dog / Safeway
+
+
+
+
+const express = require("express");
+//Unsplash
+const app = express();
+
+async function keywordToImage(keyboard){
+    const url="";
+    const res = await fetch(url);
+    const data = await res.json();
+    return data.url;
+}
+app.post("/", (req,res) => {
+    const newReminder = {
+        id:1,
+        title: req.body.title,
+        description:req.body.description,
+        completed:false,
+        bannerImage:req.body.bannerImage,
+    }
+    database.cindy.push(newReminder);
+})
+
