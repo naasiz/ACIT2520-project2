@@ -82,4 +82,4 @@ Khushneet:
 
 
 **we decided to commit all the changes at once by one person because we had some issues commiting them one by one by diffrent people
-**we also had to create a new repository becuase I couldn't push the new changes into the on we made 3 weeks ago
+**we also had to create a new repository becuase I couldn't push the new changes into the old one we made 3 weeks ago
